@@ -15,4 +15,3 @@ puts joke_evaluation   # print 'joke_evaluation'
 w = "This is the left side of..."   # define variable 'w' and assign a string
 e = "a string with a right side."   # define variable 'e' and assign a string
 puts w + e   # print 'w' and 'e' in one row i.e. concatenates this two strings
-puts w
