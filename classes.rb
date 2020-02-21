@@ -81,8 +81,8 @@ puts tri.area
 puts tri.perimeter
 
 tri_2 = Triangle.new(8, 10, 6, 6, 7)
-puts rec_2.area
-puts rec_2.perimeter
+puts tri_2.area
+puts tri_2.perimeter
 
 sqr = Square.new(7)
 puts sqr.welcome
