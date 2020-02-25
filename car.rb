@@ -63,6 +63,8 @@ class MyCar
         if @speed.zero?
             @speed = 0 
             puts "You shuted off the car!"
+        else
+            puts "You can't shut off the car when car is stil moving!"
         end
     end
 end
@@ -71,5 +73,6 @@ end
     mycar.car_info
     
     mycar.drive(1)
+    mycar.drive(0)
     mycar.drive(2)
     mycar.drive(0)
