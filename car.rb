@@ -31,7 +31,7 @@ class MyCar
     
     def deceleration
         if @speed.positive?
-        @speed -= 10
+            @speed -= 10
             puts "You are decelerating, your current speed is #{@speed} km/h."
         end
     end
@@ -50,13 +50,13 @@ class MyCar
         if color == 'color'
             array_color.each_with_index do |num, idx|
             puts "For #{num} insert -#{idx}-"
-            end
+        end
         else
             array_color.each_with_index do |num, idx|
             if color == idx
                 color = num
             end
-            end
+        end
             if @color != color
                 puts "You have changed your car color from #{@color} to #{color}."
                 @color = color
